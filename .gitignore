@@ -1,0 +1,37 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python and editor output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Regenerable financial reports, embeddings, and browser state
+data/
+downloads/
+pdfs/
+index/
+models/
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+chunks.jsonl
+.playwright-cli/
+output/
